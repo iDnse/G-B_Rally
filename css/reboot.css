@@ -74,6 +74,7 @@ video{
   font-size: var(--extra-lg);
   color: var(--dark-light);
   background-color: var(--gold);
+  opacity: 0.9;
   border-radius: 5px;
   border: var(--dark-light) 3px solid;
   margin: 32px 0;
@@ -102,13 +103,14 @@ video{
 
 .section-time{
   background-color: var(--light);
+  border-bottom: var(--gold) 4px solid;
 }
 
-
 .container-card-2{
-  width: 140px;
-  padding: 4px;
+  width: 160px;
+  padding: 2px;
   color: var(--dark-light);
+  opacity: 0.9;
   background-color: var(--gold);
   border-radius: 8px ;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -132,4 +134,27 @@ video{
   position: relative;
   background-color: var(--dark-light);
   border-radius: 50%;
+}
+
+.section-gallary{
+  background-color: var(--dark-light);
+}
+
+.car-img{
+  width: 280px;
+  height: 230px;
+  border-radius: 4px ;
+  clip-path: polygon(0% 0%, 0% 93%, 20% 93%, 30% 100%, 100% 100%, 100% 0%);
+}
+
+.container-card-3{
+  height: 270px;
+  opacity: 0.9;
+  background-color: var(--gold);
+  border-radius: 4px ;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container-card-3 h2{
+  padding: 6px;
 }
