@@ -7,7 +7,7 @@
   --dark:#0B0C0C;
   --dark-light:#2A2E34;
   --light:#E9EAEC;
-  --gold:#E4B61A;
+  --sun:#E4B61A;
   --gold:#FBE134;
   --sm:1.2em;
   --md:1.4em;
@@ -123,6 +123,7 @@ video{
   height: 8px;
   display: inline-block;
   position: relative;
+  opacity: 0.9;
   background-color: var(--dark-light);
 }
 
@@ -138,6 +139,7 @@ video{
 
 .section-gallary{
   background-color: var(--dark-light);
+  border-bottom: var(--gold) 4px solid;
 }
 
 .car-img{
@@ -157,4 +159,26 @@ video{
 
 .container-card-3 h2{
   padding: 6px;
+}
+
+.section-footer{
+  background-color: var(--dark);
+}
+
+.contenedor-derechos{
+  font-size: var(--sm);
+  color: var(--light);
+  list-style: none;
+}
+
+.line-x{
+  width: 2px;
+  height: 12px;
+  background-color: var(--light);
+}
+
+.social-media{
+  width: 24px;
+  height: 24px;
+
 }
