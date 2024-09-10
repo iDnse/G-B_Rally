@@ -8,10 +8,11 @@
   --dark-light:#2A2E34;
   --light:#E9EAEC;
   --gold:#E4B61A;
-  --sun:#FBE134;
+  --gold:#FBE134;
   --sm:1.2em;
   --md:1.4em;
   --lg:1.8em;
+  --extra-lg:3em;
 }
 
 * {
@@ -25,10 +26,9 @@ html{
 }
 
 header{
-  background-color: var(--sun);
+  background-color: var(--gold);
   opacity: 0.8;
   border: var(--dark) 4px solid;
-
 }
 
 body{
@@ -37,18 +37,8 @@ body{
   font-style: normal;
 }
 
-.title{
-  padding: 2px;
-  font-size: var(--lg);
-  color: var(--gold);
-  background-color: var(--dark-light);
-  border-radius: 5px;
-  position: relative;
-  z-index: 2;
-}
-
 .hero{
-  min-height: 65vh;
+  min-height: 60vh;
   position: relative;
   border-bottom: var(--gold) 4px solid;
 }
@@ -73,20 +63,73 @@ video{
   mix-blend-mode: overlay;
 }
 
+.section-title{
+  height: 68px;
+  background-color: var(--dark-light);
+}
+
+.title{
+  height: 52px;
+  padding: 2px;
+  font-size: var(--extra-lg);
+  color: var(--dark-light);
+  background-color: var(--gold);
+  border-radius: 5px;
+  border: var(--dark-light) 3px solid;
+  margin: 32px 0;
+}
+
+
 .section-initial{
-  background-color: var(--dark-light)
+  background-color: var(--dark-light);
+  border-bottom: var(--gold) 4px solid;
 }
 
 .container-card{
   color: var(--dark);
-  background-color: var(--sun);
+  background-color: var(--gold);
   opacity: 0.9;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  font-size: var(--sm);
+  font-size: var(--md);
+  border: 2px solid var(--gold);
 }
 
 .title-card{
   font-size: var(--lg);
   font-weight: bold;
+}
+
+.section-time{
+  background-color: var(--light);
+}
+
+
+.container-card-2{
+  width: 140px;
+  padding: 4px;
+  color: var(--dark-light);
+  background-color: var(--gold);
+  border-radius: 8px ;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: var(--md);
+  border: 3px solid var(--dark-light);
+}
+
+.line{
+  width: 110px;
+  height: 8px;
+  display: inline-block;
+  position: relative;
+  background-color: var(--dark-light);
+}
+
+.circle {
+  width: 72px;
+  height: 72px;
+  color: var(--light);
+  display: inline-block;
+  position: relative;
+  background-color: var(--dark-light);
+  border-radius: 50%;
 }
