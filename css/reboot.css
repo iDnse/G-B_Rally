@@ -25,16 +25,22 @@ html{
   font-size: 62.5%;
 }
 
+body{
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 header{
   background-color: var(--gold);
   opacity: 0.8;
   border: var(--dark) 4px solid;
 }
 
-body{
-  font-family: "Bree Serif", serif;
-  font-weight: 400;
-  font-style: normal;
+.list-items{
+  color: var(--dark-light);
+  opacity: 0.8;
+
 }
 
 .hero{
@@ -61,11 +67,6 @@ video{
   background-color: var(--dark);
   opacity:0.2;
   mix-blend-mode: overlay;
-}
-
-.section-title{
-  height: 68px;
-  background-color: var(--dark-light);
 }
 
 .title{
